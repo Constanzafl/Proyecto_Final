@@ -11,6 +11,8 @@
 ## Links de referencia
 ## Autores del proyecto
 
+jfjfjf
+
 ## 📚 Resumen 📚
 * En este trabajo grupal simulamos un ambiente laboral, en el cual somos una consultora y se nos proveen 2 datasets de informacion turistica y reseñas de Google y YELP. Nuestro Cliente es del ambito del turismo, y tenemos que crear un producto que sea rentable y resuelva lo que el cliente quiere. Elegimos como Cliente al Estado de Florida, siendo nosotros una consultora llamada Kangaroo.
 * Nuestro cliente desea mejorar la experiencia gastronomica de sus turistas, motivo por el cual procesando y analizando los datos que tenemos, ofrecemos la creacion de una APP de recomendacion de restaurantes, que se ajuste a las preferencias de cada persona.  
