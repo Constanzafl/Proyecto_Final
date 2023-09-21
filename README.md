@@ -90,7 +90,7 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 ## 📂 Datos 📂
 
 ## Links de referencia
-* [Notion](https://www.notion.so/kanguroviajero/invite/143412ab6b4566a809acc0c1922b834b0005c6b3)
+* [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
 
 * [Informe](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
 
