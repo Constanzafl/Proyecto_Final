@@ -40,20 +40,20 @@
 * Este proyecto no abarca recomendación de hoteles u otras atracciones turísticas ni otros estados que no sean Florida. 
 
 ## 📈 KPI´s 📈
-* **Clientes más satisfechos:** en un periodo de un año los restaurantes deben aumentar un 10% la cantidad de reviews positivas. 
+### **Clientes más satisfechos:** en un periodo de un año los restaurantes deben aumentar un 10% la cantidad de reviews positivas. 
 * **Objetivo:** aumentar el número de clientes satisfechos. Indicador numérico= Tasa de satisfacción, porcentaje de comentarios positivos sobre el porcentaje de comentarios totales. 
-* Plazo: un año. Meta: 10% más. 
-* **Popularidad:** los restaurantes deberán aumentar al cabo de un trimestre la cantidad de reviews de clientes en un 15%. 
+* **Plazo:** un año. Meta: 10% más. 
+### **Popularidad:** los restaurantes deberán aumentar al cabo de un trimestre la cantidad de reviews de clientes en un 15%. 
 * **Objetivo:** aumentar la popularidad. Indicador numérico = total de comentarios hace 3 meses y actuales. 
-* Plazo: un trimestre. Meta: aumentar 15%. 
-* **Fidelidad de los clientes:** aumentar el número de clientes frecuentes, que retornen al restaurante un 20% más que el periodo anterior en un periodo de 6 meses.
+* **Plazo:** un trimestre. Meta: aumentar 15%. 
+### **Fidelidad de los clientes:** aumentar el número de clientes frecuentes, que retornen al restaurante un 20% más que el periodo anterior en un periodo de 6 meses.
 * **Objetivo:** fomentar los clientes habituales frecuentes. Indicador numérico Tasa de Retorno de Clientes: datos sobre clientes que regresan. Indicador numérico = cantidad de reviews del mismo id de cliente. 
-* Plazo: seis meses. Meta: aumentar un 20%. 
+* **Plazo:** seis meses. Meta: aumentar un 20%. 
 
-* **KPI’s posibles posteriores a la implementación del producto:**
-* **Éxito de la APP:** lograr la descarga de la app desde el lanzamiento, en un periodo de 12 meses, de hasta un 60% de los turistas. 
+### **KPI’s posibles posteriores a la implementación del producto:**
+### **Éxito de la APP:** lograr la descarga de la app desde el lanzamiento, en un periodo de 12 meses, de hasta un 60% de los turistas. 
 * **Objetivo:** que los turistas usen nuestra app como sistema de recomendación. Indicador numérico = cantidad de descargas de la aplicación KanguroViajero sobre total de turistas.
-* Plazo: un año. Meta: Promover utilización de nuestra app en un 60% 
+* **Plazo:** un año. Meta: Promover utilización de nuestra app en un 60% 
 
 ## 🖥️ Metodología de trabajo 🖥️
 
