@@ -88,7 +88,9 @@ Luego, creamos un entorno de trabajo en Azure Machine Learning, que nos permite 
 Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos Azure SQL, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
 
 ## 📂 Datos 📂
-
+* EDA : es la carpeta en donde colocamos los archivos en donde se realizo el EDA y estan los mapas.
+* ETL: es la carpeta en donde colocamos los archivos de ETL y un archivo parquet con metadata.
+  
 ## Links de referencia
 * [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
 
