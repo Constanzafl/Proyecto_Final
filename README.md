@@ -72,6 +72,21 @@ La solución propuesta se llevará a cabo siguiendo una metodología de desarrol
 
 ![Captura de pantalla 2023-09-21 125206](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/2b86d18d-5478-4673-ad3d-b9f40b656ed9)
 
+* **Ingesta de Datos:**
+En el primer paso, lo que hacemos es filtrar nuestra información de interés para subir un archivo en formato Parquet a una solución de almacenamiento en la nube de Azure, Azure Data Lake Storage, Azure Blob Storage.
+* **Configuración de Azure Databricks:**
+Una vez que hemos cargado nuestros datos en la nube, procedemos a crear un espacio de trabajo en Azure Databricks, que es una plataforma que nos permite trabajar con nuestros datos de manera eficiente. También configuramos un clúster de Databricks, que es un entorno de procesamiento de datos que se adapta a nuestras necesidades.
+* **Preprocesamiento de Datos en Databricks:**
+Utilizamos Notebooks de Databricks para leer y preparar nuestros datos en formato Parquet. Realizamos tareas como limpiar los datos, realizar transformaciones y llevar a cabo la ingeniería de características, adecuando los datos para el entrenamiento de un modelo de Machine Learning.
+* **Azure SQL Server:**
+Almacenamiento de Datos procesados en Azure SQL.
+* **Desarrollo del Modelo de Machine Learning:**
+Una vez que nuestros datos están listos, es hora de entrenar un modelo de Machine Learning. Seleccionamos un marco de trabajo de aprendizaje automático y elegimos un algoritmo apropiado para nuestro modelo. Luego, evaluamos y ajustamos el rendimiento de nuestro modelo. 
+* **Implementación del Modelo con Azure Machine Learning:**
+Luego, creamos un entorno de trabajo en Azure Machine Learning, que nos permite gestionar y desplegar nuestro modelo. Configuramos un flujo de trabajo para implementar nuestro modelo como un servicio web, lo que significa que podemos acceder a él de forma remota. Exponemos nuestro modelo como un punto de acceso a través de una API REST, lo que facilita su uso en diferentes aplicaciones y servicios.
+* **Integración  y Visualización de Datos en Power BI:**
+Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos Azure SQL, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
+
 ## 📂 Datos 📂
 
 ## Links de referencia
