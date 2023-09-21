@@ -3,24 +3,15 @@
 
 ![WhatsApp Image 2023-09-16 at 16 17 55](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/88fa5090-2e4b-46e5-8329-e28e41d0a7e1)
 
-### **Indice**
-### Resumen
-### Descripcion del Proyecto
-### Objetivos
-### Alcance
-### Datos
-### Stack tecnológico utilizado
-### Links de referencia
-
 ### Autores del proyecto y roles
-* Fausto Ezquerra ➡️ Data analyst
-* Maria Constanza Florio ➡️ Data engineer
-* Joaquin Millan ➡️ Data analyst
+* Fausto Ezquerra ➡️ Data Analyst
+* Maria Constanza Florio ➡️ Data Engineer
+* Joaquin Millan ➡️ Data Analyst
 * Martin Peñas ➡️ Data Science
-* Nicolas Yapur ➡️ Data engineer
+* Nicolas Yapur ➡️ Data Engineer
 
 ## 📚 Resumen 📚
-* En este trabajo grupal simulamos un ambiente laboral, en el cual somos una consultora y se nos proveen 2 datasets de informacion turistica y reseñas de Google y YELP. Nuestro Cliente es del ambito del turismo, y tenemos que crear un producto que sea rentable y resuelva lo que el cliente quiere. Elegimos como Cliente al Estado de Florida, siendo nosotros una consultora llamada Kangaroo.
+* En este trabajo grupal simulamos un ambiente laboral, en el cual somos una consultora especializada en Business Intelligence y se nos proveen 2 datasets de informacion turistica y reseñas de Google y YELP. Nuestro Cliente es del ambito del turismo, y tenemos que crear un producto que sea rentable y resuelva lo que el cliente quiere. Elegimos como Cliente al Estado de Florida, siendo nosotros una consultora llamada Kangaroo.
 * Nuestro cliente desea mejorar la experiencia gastronomica de sus turistas, motivo por el cual procesando y analizando los datos que tenemos, ofrecemos la creacion de una APP de recomendacion de restaurantes, que se ajuste a las preferencias de cada persona.  
 
 ## 🌈 Descripcion del proyecto 🌈
@@ -64,6 +55,12 @@
 * **Objetivo:** que los turistas usen nuestra app como sistema de recomendación. Indicador numérico = cantidad de descargas de la aplicación KanguroViajero sobre total de turistas.
 * Plazo: un año. Meta: Promover utilización de nuestra app en un 60% 
 
+## 🖥️ Metodología de trabajo 🖥️
+
+![Ventajas-del-uso-de-metodologías-ágiles-1024x562](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/d515d49b-cc88-438f-9795-3ce879fbb699)
+
+La solución propuesta se llevará a cabo siguiendo una metodología de desarrollo ágil para garantizar la entrega efectiva y oportuna de la aplicación, el dashboard y el MVP, con un enfoque constante basado en la calidad y disminución de errores. Dado que la productividad es clave para el equipo, planteamos la gestión de tareas en un Diagrama de Gantt y un tablero de Kanban, ambos realizados sobre Notion. Allí se plantea la tarea, el tiempo y los responsables, para evitar la duplicidad de trabajo e incrementar la colaboración entre los integrantes una vez culminada la tarea asignada.  
+
 ## 📈 Stack tecnológico utilizado 📈
 * Lenguajes: Python
 * Ingeniería de datos: Microsoft Azure, python, SQL, Apache Spark, Databricks
@@ -71,11 +68,15 @@
 * Modelo de machine learning: Python ScikitLearn, NLP, NLTK
 * Gestión de proyecto: Notion, Google Meet, Github, GitKraken
 
+## 📶 Pipeline 📶
+
+![Captura de pantalla 2023-09-21 125206](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/2b86d18d-5478-4673-ad3d-b9f40b656ed9)
+
 ## 📂 Datos 📂
 
 ## Links de referencia
-* [Notion](www.notion.so/kanguroviajero)
-* [Google Drive](https://drive.google.com/drive/folders/1AvxH81DPOR6JmT8D6fxpPKdY-CkpGCl7?usp=drive_link)
+* [Notion](https://www.notion.so/kanguroviajero/invite/143412ab6b4566a809acc0c1922b834b0005c6b3)
+
 * [Informe](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
 
 
