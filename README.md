@@ -43,15 +43,15 @@
 ### **Clientes más satisfechos:** en un periodo de un año los restaurantes deben aumentar un 10% la cantidad de reviews positivas. 
 * **Objetivo:** aumentar el número de clientes satisfechos. Indicador numérico= Tasa de satisfacción, porcentaje de comentarios positivos sobre el porcentaje de comentarios totales. 
 * **Plazo:** un año. Meta: 10% más. 
-### **Popularidad:** los restaurantes deberán aumentar al cabo de un trimestre la cantidad de reviews de clientes en un 15%. 
-* **Objetivo:** aumentar la popularidad. Indicador numérico = total de comentarios hace 3 meses y actuales. 
-* **Plazo:** un trimestre. Meta: aumentar 15%. 
-### **Fidelidad de los clientes:** aumentar el número de clientes frecuentes, que retornen al restaurante un 20% más que el periodo anterior en un periodo de 6 meses.
+### **Popularidad:** los restaurantes deberán aumentar al cabo de un año la cantidad de reviews de clientes en un 15%. 
+* **Objetivo:** aumentar la popularidad. Indicador numérico = total de comentarios hace 1 año y actuales. 
+* **Plazo:** un año. Meta: aumentar 15%. 
+### **Fidelidad de los clientes:** aumentar el número de clientes frecuentes, que retornen al restaurante un 20% más que el periodo anterior en un periodo de 1 año.
 * **Objetivo:** fomentar los clientes habituales frecuentes. Indicador numérico Tasa de Retorno de Clientes: datos sobre clientes que regresan. Indicador numérico = cantidad de reviews del mismo id de cliente. 
-* **Plazo:** seis meses. Meta: aumentar un 20%. 
+* **Plazo:** 1 año. Meta: aumentar un 20%. 
 
 ### **KPI’s posibles posteriores a la implementación del producto:**
-### **Éxito de la APP:** lograr la descarga de la app desde el lanzamiento, en un periodo de 12 meses, de hasta un 60% de los turistas. 
+### **Éxito de la APP:** lograr la descarga de la app desde el lanzamiento, en un periodo de 1 año, de hasta un 60% de los turistas. 
 * **Objetivo:** que los turistas usen nuestra app como sistema de recomendación. Indicador numérico = cantidad de descargas de la aplicación KanguroViajero sobre total de turistas.
 * **Plazo:** un año. Meta: Promover utilización de nuestra app en un 60% 
 
@@ -63,40 +63,40 @@ La solución propuesta se llevará a cabo siguiendo una metodología de desarrol
 
 ## 📈 Stack tecnológico utilizado 📈
 * Lenguajes: Python
-* Ingeniería de datos: Microsoft Azure, python, SQL, Apache Spark, Databricks
+* Ingeniería de datos: Google Cloud, Google Storage, Google Function, Big Query, python, SQL
 * Análisis y visualización de datos: Matplotlib, Seaborn, Power Bi, Folium, Streamlit.
 * Modelo de machine learning: Python ScikitLearn, NLP, NLTK
 * Gestión de proyecto: Notion, Google Meet, Github, GitKraken
 
 ## 📶 Pipeline 📶
 
-![Captura de pantalla 2023-09-21 125206](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/2b86d18d-5478-4673-ad3d-b9f40b656ed9)
+![Captura de pantalla 2023-10-04 173208](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/da9c6092-a756-43e6-bda0-9d9106a83776)
 
-* **Ingesta de Datos:**
-En el primer paso, lo que hacemos es filtrar nuestra información de interés para subir un archivo en formato Parquet a una solución de almacenamiento en la nube de Azure, Azure Data Lake Storage, Azure Blob Storage.
-* **Configuración de Azure Databricks:**
-Una vez que hemos cargado nuestros datos en la nube, procedemos a crear un espacio de trabajo en Azure Databricks, que es una plataforma que nos permite trabajar con nuestros datos de manera eficiente. También configuramos un clúster de Databricks, que es un entorno de procesamiento de datos que se adapta a nuestras necesidades.
-* **Preprocesamiento de Datos en Databricks:**
-Utilizamos Notebooks de Databricks para leer y preparar nuestros datos en formato Parquet. Realizamos tareas como limpiar los datos, realizar transformaciones y llevar a cabo la ingeniería de características, adecuando los datos para el entrenamiento de un modelo de Machine Learning.
-* **Azure SQL Server:**
-Almacenamiento de Datos procesados en Azure SQL.
-* **Desarrollo del Modelo de Machine Learning:**
-Una vez que nuestros datos están listos, es hora de entrenar un modelo de Machine Learning. Seleccionamos un marco de trabajo de aprendizaje automático y elegimos un algoritmo apropiado para nuestro modelo. Luego, evaluamos y ajustamos el rendimiento de nuestro modelo. 
-* **Implementación del Modelo con Azure Machine Learning:**
-Luego, creamos un entorno de trabajo en Azure Machine Learning, que nos permite gestionar y desplegar nuestro modelo. Configuramos un flujo de trabajo para implementar nuestro modelo como un servicio web, lo que significa que podemos acceder a él de forma remota. Exponemos nuestro modelo como un punto de acceso a través de una API REST, lo que facilita su uso en diferentes aplicaciones y servicios.
+
+* **Automatización de Data Warehouse y la carga incremental**: Google Cloud.
+* Iniciamos configurando dos buckets en **Cloud Storage**: "data_lake_kanguro" y "data_procesada_kanguro". En el primero, subimos nuestros datos manualmente, mientras que en el segundo implementamos **Cloud Functions** para simplificar el proceso.
+* Creamos dos funciones:
+* *ETL_bucket_a_bucket_limpio:* Esta función se activa automáticamente cada vez que se añaden nuevos archivos a "data_lake_kanguro". Su tarea principal es ejecutar nuestro proceso ETL para procesar los datos recién cargados y, a continuación, trasladarlos al bucket "data_procesada_kanguro".
+* *De_bucket_limpio_a_BigQuery:* La segunda función entra en acción cuando se carga un archivo en el bucket "data_procesada_kanguro". Su propósito es tomar los datos procesados y cargarlos de manera eficiente en BigQuery, asegurando que nuestra base de datos esté siempre actualizada con la información más reciente.
+* Esta automatización garantiza que nuestros datos fluyan desde su origen en "data_lake_kanguro" hasta BigQuery, lo que simplifica la gestión de nuestro Data Warehouse y permite un análisis en tiempo real de los datos procesados. Además, al eliminar la intervención manual, hemos mejorado significativamente la eficiencia de nuestro proceso de datos.
+
 * **Integración  y Visualización de Datos en Power BI:**
-Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos Azure SQL, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
+Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos de Big Query, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
 
 ## 📂 Datos 📂
-* EDA : es la carpeta en donde colocamos los archivos en donde se realizo el EDA y estan los mapas.
-* ETL: es la carpeta en donde colocamos los archivos de ETL y un archivo parquet con metadata.
+* Dividimos la organizacion de las carpetas por las semanas de trabajo en los diferentes Sprints. 
+* **Sprint 1:** dentro de esta carpeta tenemos dos carpetas en donde realizamos el ETL y EDA inicial de los datos.
+* **Sprint 2:** tenemos tambien dos carpetas que se llaman EDA y ETL. En la carpeta ETL tenemos el archivo ETL.py que es el que usamos para la funcion de Google Functions. Dentro de la carpeta EDA tenemos EDA general de los estados, de metadata, de YELP y el EDA especifico del estado de Florida. 
   
 ## Links de referencia
 * [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
 
-* [Informe](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
+* [Informe Sprint 1](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
 
-* [Presentacion](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64)
+* [Informe Sprint 2](https://docs.google.com/document/d/1aX-ujec8e8rLf4ExqVZJ34_6zyH8aR4feleEsfmzYSo/edit?usp=drive_link)
 
+* [Presentacion Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64)
+
+* [Presentacion Sprint 2]()
 
 
