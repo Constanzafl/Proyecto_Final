@@ -97,6 +97,6 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 
 * [Presentacion Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64)
 
-* [Presentacion Sprint 2]()
+* [Presentacion Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
 
