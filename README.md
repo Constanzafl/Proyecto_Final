@@ -83,10 +83,13 @@ La solución propuesta se llevará a cabo siguiendo una metodología de desarrol
 * **Integración  y Visualización de Datos en Power BI:**
 Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos de Big Query, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
 
+
 ## 📂 Datos 📂
 * Dividimos la organizacion de las carpetas por las semanas de trabajo en los diferentes Sprints. 
 * **Sprint 1:** dentro de esta carpeta tenemos dos carpetas en donde realizamos el ETL y EDA inicial de los datos.
 * **Sprint 2:** tenemos tambien dos carpetas que se llaman EDA y ETL. En la carpeta ETL tenemos el archivo ETL.py que es el que usamos para la funcion de Google Functions. Dentro de la carpeta EDA tenemos EDA general de los estados, de metadata, de YELP y el EDA especifico del estado de Florida. 
+* **Sprint 3:**
+
   
 ## Links de referencia
 * [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
