@@ -93,10 +93,10 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 
 * [Informe Sprint 1](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
 
-* [Informe Sprint 2](https://docs.google.com/document/d/1aX-ujec8e8rLf4ExqVZJ34_6zyH8aR4feleEsfmzYSo/edit?usp=drive_link)
+* [Informe Sprint 2](https://drive.google.com/file/d/1O270C-11ELrtx7Z6CIESt2t6YwxdC8yI/view?usp=drive_link)
 
 * [Presentacion Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64)
 
-* [Presentacion Sprint 2]()
+* [Presentacion Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
 
