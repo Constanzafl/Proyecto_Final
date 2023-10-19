@@ -144,7 +144,7 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 [Tabla de contenidos](#tabla-de-contenidos)
   
 ## Links de referencia
-* **WEB del proyecto**[WEB](https://6531312fde714.site123.me/)
+* **WEB del proyecto**: [WEB](https://6531312fde714.site123.me/)
 
 * **Diagramas**: [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
 
@@ -153,7 +153,9 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 
 * **Presentaciones**: [Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64),[Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
-* **APP de Recomendacion de Restaurants**: [Streamlit App](https://kangurorestaurants.streamlit.app/), [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
+* **APP de Recomendacion de Restaurants**: [Streamlit App](https://kangurorestaurants.streamlit.app/)
+
+* **Github del Streamlit:** [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
 
 
 
