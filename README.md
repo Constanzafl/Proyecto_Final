@@ -23,6 +23,8 @@
 - [Metodología de trabajo](#🖥️-metodología-de-trabajo-🖥️)
 - [Stack tecnológico utilizado](#📈-stack-tecnológico-utilizado-📈)
 - [Pipeline](#📶-pipeline-📶)
+- [Dashboard PowerBI]()
+- [Streamlit App](https://kangurorestaurants.streamlit.app/)
 - [Datos](#📂-datos-📂)
 - [Links de referencia](#links-de-referencia)
 
@@ -144,13 +146,10 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 
 * [Presentacion Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
-<<<<<<< HEAD
 * [Streamlit App](https://kangurorestaurants.streamlit.app/)
 
-=======
 * [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
 
 * [WEB Streamlit](https://kangurorestaurants.streamlit.app/)
->>>>>>> 970a5741b070ecea14c444f3cee7d6c4085e68de
 
 [Tabla de contenidos](#tabla-de-contenidos)
