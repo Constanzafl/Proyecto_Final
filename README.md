@@ -94,9 +94,11 @@ La solución propuesta se llevará a cabo siguiendo una metodología de desarrol
 
 * **Integración  y Visualización de Datos en Power BI:**
 Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Power BI a las fuentes de datos de Big Query, donde están almacenados los datos procesados. Finalmente, en Power BI, creamos visualizaciones para mostrar KPIs, tendencias y otros insights de nuestros datos. Programamos actualizaciones regulares para garantizar que nuestros informes estén siempre actualizados y disponibles para la toma de decisiones.
+
 [Dashboard Power BI](https://drive.google.com/file/d/1rpCtNlTB724mwJsMxIxo_Lab74d8w2DZ/view?usp=share_link)
 
 * **Modelos de Machine Learning en Streamlit:** Desplegamos nuestros modelos de recomendación de Machine Learning en Streamlit para ofrecer una experiencia interactiva en nuestra aplicación de recomendación de restaurantes.
+
 [Streamlit App](https://kangurorestaurants.streamlit.app/)
 
 ## 📂 Datos 📂
