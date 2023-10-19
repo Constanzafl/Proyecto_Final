@@ -71,15 +71,25 @@
 [Tabla de contenidos](#tabla-de-contenidos)
 
 ## 📈 KPIs 📈
-### **Clientes más satisfechos:** en un periodo de un año los restaurantes deben aumentar un 10% la cantidad de reviews positivas. 
-* **Objetivo:** aumentar el número de clientes satisfechos. Indicador numérico= Tasa de satisfacción, porcentaje de comentarios positivos sobre el porcentaje de comentarios totales. 
-* **Plazo:** un año. Meta: 10% más. 
-### **Popularidad:** los restaurantes deberán aumentar al cabo de un año la cantidad de reviews de clientes en un 15%. 
-* **Objetivo:** aumentar la popularidad. Indicador numérico = total de comentarios hace 1 año y actuales. 
-* **Plazo:** un año. Meta: aumentar 15%. 
-### **Fidelidad de los clientes:** aumentar el número de clientes frecuentes, que retornen al restaurante un 20% más que el periodo anterior en un periodo de 1 año.
-* **Objetivo:** fomentar los clientes habituales frecuentes. Indicador numérico Tasa de Retorno de Clientes: datos sobre clientes que regresan. Indicador numérico = cantidad de reviews del mismo id de cliente. 
-* **Plazo:** 1 año. Meta: aumentar un 20%. 
+### **Evolución Anual del Rating:** Indicador que mide la evolución del rating promedio del restaurante seleccionado en el año y mes seleccionados respecto al mismo periodo del año pasado.
+* **Objetivo:** controlar la evolución en ratings de los restaurantes, se quiere estar al menos 5% arriba.
+* **Temporalidad:** anual/mensual.
+### **Estado de Rating:** Indicador que mide el rating promedio para el año y mes seleccionados y el restaurante seleccionada y lo compara contra el rating promedio histórico.
+* **Objetivo:** medir que el rating esté por encima del rating histórico.
+* **Temporalidad:** anual/mensual.
+### **Crecimiento de Ratings/Popularidad:** Indicador que mide la cantidad de ratings dados a un restaurante seleccionado en un año y mes seleccionados y lo compara con la cantidad de ratings respecto al mes pasado.
+* **Objetivo:** medirla evolución instantánea en popularidad de los restaurantes.
+* **Temporalidad:** mensual.
+### **Crecimiento de Popularidad Anual:** Indicador que mide la cantidad de ratings dados a un restaurante seleccionado en una fecha seleccionada y lo compara con la cantidad de ratings respecto al mismo periodo del año pasado.
+* **Objetivo:** medirla evolución sostenida en popularidad de los restaurantes.
+* **Temporalidad:** mensual.
+### **Crecimiento en cantidad de Clientes:** Indicador que mide el crecimiento en la cantidad de clientes comparando la cantidad de nuevos clientes en el  periodo actual respecto al mismo periodo del pasado año. Se puede medir restaurantes o categoría de restaurantes.
+* **Objetivo:** medir el crecimiento sostenido en cuanto a clientes del restaurante o categoría de restaurantes .
+* **Temporalidad:** anual/mensual.
+### **Crecimiento lineal en Clientes:** Indicador que mide el crecimiento lineal en la cantidad de clientes basado en los clientes que dejaron su calificación del restaurante o categoría de restaurantes.
+* **Objetivo:** medir crecimiento o estancamiento del restaurante o categoría de restaurantes.
+* **Temporalidad:** anual/mensual.
+ 
 
 ### **KPI’s posibles posteriores a la implementación del producto:**
 ### **Éxito de la APP:** lograr la descarga de la app desde el lanzamiento, en un periodo de 1 año, de hasta un 60% de los turistas. 
@@ -134,22 +144,17 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 [Tabla de contenidos](#tabla-de-contenidos)
   
 ## Links de referencia
-* [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
+* **WEB del proyecto**[WEB](https://6531312fde714.site123.me/)
 
-* [Informe Sprint 1](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link)
+* **Diagramas**: [Notion](https://kanguroviajero.notion.site/Kangaroo-App-Diagrama-de-Gantt-Kanban-26d34977a62e4eb884f72eada7cb8d6a?pvs=4)
 
-* [Informe Sprint 2](https://drive.google.com/file/d/1O270C-11ELrtx7Z6CIESt2t6YwxdC8yI/view?usp=drive_link)
+* **Informes**: [Sprint 1](https://drive.google.com/file/d/1ZRq2sJPvwazXdwUK57UKDH6O_FC5vKw9/view?usp=drive_link), [Sprint 2](https://drive.google.com/file/d/1O270C-11ELrtx7Z6CIESt2t6YwxdC8yI/view?usp=drive_link), [Sprint 3](https://drive.google.com/file/d/12ldJN-be1jKQRF-tJbLQ-XhnJNMASHh-/view?usp=sharing)
 
-* [Informe Sprint 3](https://docs.google.com/document/d/1qz3QFIGP3oQvBg1j-jiO3tIgkZFD4bNEdDuAmMwbFPo/edit?usp=share_link)
 
-* [Presentacion Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64)
+* **Presentaciones**: [Sprint 1](https://docs.google.com/presentation/d/1FVXSwmO8zaS5nYGG2wB0RIGuWHioSkzidErcHXnijwA/edit#slide=id.g2472c1f28cd_0_64),[Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
-* [Presentacion Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
+* **APP de Recomendacion de Restaurants**: [Streamlit App](https://kangurorestaurants.streamlit.app/), [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
 
-* [Streamlit App](https://kangurorestaurants.streamlit.app/)
 
-* [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
-
-* [WEB Streamlit](https://kangurorestaurants.streamlit.app/)
 
 [Tabla de contenidos](#tabla-de-contenidos)
