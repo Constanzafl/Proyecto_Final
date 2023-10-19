@@ -14,18 +14,18 @@
 
 
 ## Tabla de contenidos
-- [Resumen](#📚-resumen-📚)
-- [Descripción del proyecto](#🌈-descripcion-del-proyecto-🌈)
-- [Objetivos](#🌈-objetivos-🌈)
-- [Alcance](#✔️-alcance-✔️)
-- [Fuera de alcance](#❌-fuera-de-alcance-❌)
-- [KPI's](#📈-kpis-📈)
-- [Metodología de trabajo](#🖥️-metodología-de-trabajo-🖥️)
-- [Stack tecnológico utilizado](#📈-stack-tecnológico-utilizado-📈)
-- [Pipeline](#📶-pipeline-📶)
+- [Resumen](#📚-Resumen-📚)
+- [Descripción del proyecto](#🌈-Descripcion-del-proyecto-🌈)
+- [Objetivos](#🌈-Objetivos-🌈)
+- [Alcance](#✔️-Alcance-✔️)
+- [Fuera de alcance](#❌-Fuera-de-alcance-❌)
+- [KPI's](#📈-KPI's-📈)
+- [Metodología de trabajo](#🖥️-Metodología-de-trabajo-🖥️)
+- [Stack tecnológico utilizado](#📈-Stack-tecnológico-utilizado-📈)
+- [Pipeline](#📶-Pipeline-📶)
 - [Dashboard PowerBI]()
 - [Streamlit App](https://kangurorestaurants.streamlit.app/)
-- [Datos](#📂-datos-📂)
+- [Datos](#📂-Datos-📂)
 - [Links de referencia](#links-de-referencia)
 
 
