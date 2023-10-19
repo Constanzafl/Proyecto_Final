@@ -143,5 +143,8 @@ Para visualizar nuestros datos y los resultados de nuestro modelo, conectamos Po
 
 * [Presentacion Sprint 2](https://gamma.app/docs/Consultora-Kangaroo-ob1ol8xxi4un9f0)
 
+* [Git Hub Streamlit](https://github.com/Constanzafl/Proyecto_final_streamlit)
+
+* [WEB Streamlit](https://kangurorestaurants.streamlit.app/)
 
 [Tabla de contenidos](#tabla-de-contenidos)
