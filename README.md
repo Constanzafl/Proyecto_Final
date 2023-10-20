@@ -4,11 +4,11 @@
 ![WhatsApp Image 2023-09-16 at 16 17 55](https://github.com/Constanzafl/Proyecto_Final/assets/121994442/88fa5090-2e4b-46e5-8329-e28e41d0a7e1)
 
 ### Autores del proyecto y roles
-* Fausto Ezquerra ➡️ Data Analyst (https://www.linkedin.com/in/faustoezquerra/)
-* Maria Constanza Florio ➡️ Data Engineer (https://www.linkedin.com/in/mar%C3%ADa-constanza-florio-1926b5158/)
-* Joaquin Millan ➡️ Data Analyst (https://www.linkedin.com/in/jmillanlanhozo/)
-* Martin Peñas ➡️ Data Science (https://www.linkedin.com/in/martinepenas/)
-* Nicolas Yapur ➡️ Data Engineer (https://www.linkedin.com/in/nicolas-yapur-55982513b/)
+* Fausto Ezquerra ➡️ Data Analyst [Linkedin](https://www.linkedin.com/in/faustoezquerra/)
+* Maria Constanza Florio ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-constanza-florio-1926b5158/)
+* Joaquin Millan ➡️ Data Analyst [Linkedin](https://www.linkedin.com/in/jmillanlanhozo/)
+* Martin Peñas ➡️ Data Science [Linkedin](https://www.linkedin.com/in/martinepenas/)
+* Nicolas Yapur ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/nicolas-yapur-55982513b/)
 
 
 ## 📚 Resumen 📚
