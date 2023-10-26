@@ -10,6 +10,9 @@
 * Martin Peñas ➡️ Data Science [Linkedin](https://www.linkedin.com/in/martinepenas/)
 * Nicolas Yapur ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/nicolas-yapur-55982513b/)
 
+[![Video](https://img.youtube.com/vi/mx6WXhnLY6g/0.jpg)](https://youtu.be/mx6WXhnLY6g)
+
+
 
 ## 📚 Resumen 📚
 * En este trabajo grupal simulamos un ambiente laboral, en el cual somos una consultora especializada en Business Intelligence y se nos proveen 2 datasets de informacion turistica y reseñas de Google y YELP. Nuestro Cliente es del ambito del turismo, y tenemos que crear un producto que sea rentable y resuelva lo que el cliente quiere. Elegimos como Cliente al Estado de Florida, siendo nosotros una consultora llamada Kangaroo.
