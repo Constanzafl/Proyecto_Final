@@ -10,7 +10,8 @@
 * Martin Peñas ➡️ Data Science [Linkedin](https://www.linkedin.com/in/martinepenas/)
 * Nicolas Yapur ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/nicolas-yapur-55982513b/)
 
-[![Video](https://img.youtube.com/vi/mx6WXhnLY6g/0.jpg)](https://www.youtube.com/embed/mx6WXhnLY6g)
+[![Watch the video](https://img.youtube.com/vi/mx6WXhnLY6g/0.jpg)](https://youtu.be/mx6WXhnLY6g)
+
 
 [<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
 />](https://www.youtube.com/embed/APOPm01BVrk)
