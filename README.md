@@ -5,7 +5,7 @@
 
 ### Autores del proyecto y roles
 * Fausto Ezquerra ➡️ Data Analyst [Linkedin](https://www.linkedin.com/in/faustoezquerra/)
-* Maria Constanza Florio ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/mar%C3%ADa-constanza-florio-1926b5158/)
+* Maria Constanza Florio ➡️ Data Engineer [Linkedin](www.linkedin.com/in/mariaconstanzaflorio)
 * Joaquin Millan ➡️ Data Analyst [Linkedin](https://www.linkedin.com/in/jmillanlanhozo/)
 * Martin Peñas ➡️ Data Science [Linkedin](https://www.linkedin.com/in/martinepenas/)
 * Nicolas Yapur ➡️ Data Engineer [Linkedin](https://www.linkedin.com/in/nicolas-yapur-55982513b/)
